@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: flyway-db-migration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/booksdb
+    username: admin
+    password: pass
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
